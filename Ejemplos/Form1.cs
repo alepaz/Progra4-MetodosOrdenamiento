@@ -138,11 +138,41 @@ namespace Ejemplos
 
             }
 
-            QuickSort(arreglo, 0, contador - 1);
+            ShellSort(arreglo);
 
             for (i = 0; i < contador; i++) {
                 lbxOutput.Items.Add(arreglo[i]);
             }
+        }
+
+        static void ShellSort(int[] array)
+        {
+            int i, j, increment;
+            int temp;
+
+            increment = array.Length / 2;
+            while (increment > 0)
+            {
+                for (i = 0; i < array.Length; i++)
+                {
+                    j = i;
+                    temp = array[i];
+                    while ((j >= increment) && (array[j - increment].CompareTo(temp) > 0))
+                    {
+                        array[j] = array[j - increment];
+                        j = j - increment;
+                    }
+                    array[j] = temp;
+                }
+                if (increment == 2)
+                    increment = 1;
+                else
+                    increment = increment * 5 / 11;
+
+            }
+            Console.WriteLine("Arreglo Ordenado");
+            for (i = 0; i < array.Length; i++)
+                Console.Write(array[i] + " ");
         }
     }
 }
