@@ -1,0 +1,9 @@
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\bin\Debug\Ejemplos.exe.config
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csprojResolveAssemblyReference.cache
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.Form1.resources
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.Properties.Resources.resources
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csproj.GenerateResource.Cache
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\bin\Debug\Ejemplos.exe
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\bin\Debug\Ejemplos.pdb
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.exe
+c:\users\alepaz\documents\visual studio 2015\Projects\Ejemplos\Ejemplos\obj\Debug\Ejemplos.pdb
